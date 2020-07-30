@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/test-react-native/precache-manifest.220219206a3bbd6ee37eaf5dac168c06.js"
+  "/precache-manifest.69ceb246a2224ce572e4d8529c6bb204.js"
 );
 
 workbox.skipWaiting();
@@ -29,7 +29,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/test-react-native/index.html", {
+workbox.routing.registerNavigationRoute("index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
